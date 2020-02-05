@@ -1,9 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
 package Kmeans;
 
 import java.util.Scanner;
@@ -173,30 +167,6 @@ public class HMeans {
              matrizDePertenenciaH[a][b] = 1;
              
          }
-           
-         
-//         int matrizDistanciaFilas = 0;
-//         int matrizDistanciaColumnas = 0;
-//        for(int i = 0; i < c; i++){
-//         for (int j = 0; j < n ; j++){
-//             
-//          if( matrizDistancia[i][j] <= matrizDistancia[1 + matrizDistanciaFilas][ matrizDistanciaColumnas] )
-//          {
-//              matrizDePertenenciaH[matrizDistanciaFilas][i] = 1;
-//              matrizDePertenenciaH[1 + matrizDistanciaFilas][i] = 0;
-//              //incrementar columnas
-//              matrizDistanciaColumnas++;
-//          }
-//          else
-//          {
-//              matrizDePertenenciaH[matrizDistanciaFilas][i] = 0;
-//              matrizDePertenenciaH[1 + matrizDistanciaFilas][i] = 1;
-//              matrizDistanciaColumnas++;
-//          }
-//           
-//       
-//         }
-//        }
          
      }
      
