@@ -14,7 +14,7 @@ import java.util.List;
 
 /**
  *
- * @author ElTera
+ * @author GCC
  */
 
 public class HMeans {
